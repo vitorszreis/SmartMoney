@@ -2,6 +2,7 @@ import { View, Text, StyleSheet } from "react-native";
 
 import BalancePanel from "../components/BalancePanel";
 import EntrySummary from "../components/entrySumary";
+import EntryList from "../components/EntryList";
 
 const Main = () => {
   return (
@@ -9,6 +10,7 @@ const Main = () => {
       <Text style={styles.label}></Text>
       <BalancePanel/>
       <EntrySummary/>
+      <EntryList/>
     </View>
   );
 };

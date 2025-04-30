@@ -1,9 +1,26 @@
-import { View, Text } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 
-export default function Index() {
+import BalancePanelLabel from '../components/BalancePanel/BalancePanelLabel';
+
+const Main = () => {
+
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Página Inicial</Text>
+    <View style = {styles.container}>
+      <Text style = {styles.label}>Main Page</Text>
+      <BalancePanelLabel></BalancePanelLabel>
     </View>
   );
-}
+};
+
+
+const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      padding: 10,
+    },
+    label: {
+      fontSize: 20,
+    },
+});
+
+export default Main;

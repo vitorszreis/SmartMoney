@@ -4,7 +4,7 @@ import React from 'react'
 const BalancePanelChart = () => {
   return (
     <View>
-      <Text>BalancePanelChart</Text>
+      <Text></Text>
     </View>
   )
 };

@@ -1,13 +1,13 @@
 import { View, Text, StyleSheet } from 'react-native';
 
-import BalancePanelLabel from '../components/BalancePanel/BalancePanelLabel';
+import BalancePanel from '../components/BalancePanel';
 
 const Main = () => {
 
   return (
     <View style = {styles.container}>
-      <Text style = {styles.label}>Main Page</Text>
-      <BalancePanelLabel></BalancePanelLabel>
+      <Text style = {styles.label}></Text>
+      <BalancePanel></BalancePanel>
     </View>
   );
 };
